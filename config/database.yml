@@ -85,4 +85,4 @@ production:
   <<: *default
   database: Quiz_production
   #username: Quiz
-  #password: <%= ENV['QUIZ_DATABASE_PASSWORD'] %>
+  #routespassword: <%= ENV['QUIZ_DATABASE_PASSWORD'] %>
