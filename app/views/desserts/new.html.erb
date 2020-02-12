@@ -1,5 +1,7 @@
 <%= simple_form_for @dessert do |f| %>
+  <%= f.label :type %>
   <%= f.input :type %>
+  <%= f.label :flavor %>
   <%= f.input :flavor %>
   <%= f.button :submit %>
 <% end %>
